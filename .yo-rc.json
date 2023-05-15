@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "PatJhipsterSampleApplication",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-azure-spring-apps",
+        "version": "1.0.8"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "gitCompany": "",
+    "jhiPrefix": "jhi",
+    "languages": ["en"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-azure-spring-apps",
+        "version": "1.0.8"
+      }
+    ],
+    "packageFolder": "com/chanezon/advocacysample",
+    "packageName": "com.chanezon.advocacysample",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "testFrameworks": [],
+    "useSass": true,
+    "websocket": false,
+    "withAdminUi": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "chanezon",
+  "repository-name": "jhipster-sample-application"
+}
